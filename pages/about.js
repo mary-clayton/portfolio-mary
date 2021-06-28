@@ -12,7 +12,7 @@ const About = () => {
                 I am AWS-certified as a Cloud Practioner and a systems Ops Associate. I currently am working towards a Bachelors in Computer Science
                 in University of the People and a certification in System Design and Solutions at DeVry University.
             </p>
-            <button>Resume</button>
+            <button> <a href="https://drive.google.com/file/d/10ZJJVH3okRTzUkAN1Qak1fmey8soAe0T/view?usp=sharing">Resume</a></button>
             </section>
 
         </div>
