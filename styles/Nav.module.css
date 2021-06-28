@@ -8,3 +8,6 @@
 .link {
     padding: 5%;
 }
+.link:hover {
+    color: coral;
+}
