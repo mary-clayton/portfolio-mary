@@ -1,31 +1,28 @@
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
-import styled from 'styled-components';
+import styles from '../styles/Nav.module.css'
 
-const Alink = styled.a `
-padding: 0 30%;
-`
+
 const Navbar = () => {
     return ( 
-        <div className={styles.mainnav}>
+        <div className={styles.mainnavbar}>
              <div className={styles.logo}>
                 <h1>Mary Clayton</h1>
             </div>
         <nav className= {styles.navbar}>
             <Link href="/">
-                <Alink>Home</Alink>
+                <a className={styles.link}>Home</a>
                 </Link>
             <Link href="/about">
-                <Alink>About</Alink>
+                <a className={styles.link}>About</a>
                 </Link>
             <Link href="/projects">
-                <Alink>Projects</Alink>
+                <a className={styles.link}>Projects</a>
                 </Link>
             <Link href="/contact">
-                <Alink>Contact</Alink>
+                <a className={styles.link}>Contact</a>
                 </Link>
             <Link href="/blog">
-                <Alink>Blog</Alink>
+                <a className={styles.link}>Blog</a>
                 </Link>
         </nav>
         </div>
