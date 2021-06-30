@@ -46,9 +46,10 @@ align-items: center;
 
 /* ABOUT SECTION */
 
-.about {
+.maindiv {
   background-image:url(../public/bg.jpg);
   background-size: cover;
+  background-attachment: scroll;
   display:flex;
   justify-content: center;
   align-content: center;
@@ -61,4 +62,20 @@ align-items: center;
 
 .para1 {
   line-height: 250%;
+}
+
+/* PROJECTS SECTION */
+
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  }
+
+.cardimage {
+  width: 100%;
+}
+
+.codebutton {
+margin: 10%;
 }
