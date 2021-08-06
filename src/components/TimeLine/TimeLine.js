@@ -46,11 +46,10 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a software developer and designer located in Phoenix, AZ, currently seeking a career in Software Development, design, and cloud development. 
-      I am AWS-certified as a Cloud Practioner and a systems Ops Associate. I currently am working towards a Bachelors in Computer Science in University 
-      of the People and a certification in System Design and Solutions at DeVry University. I currently hold a Bachelors of Art in Digital Design from Grand 
-      Canyon University. I am a technical and design-oriented person who enjoys creating and helping others achieve a common goal. I am a fast learner who is 
-      able to pick up on skills and pick up multiple tasks at once with ease.
+      I am a software developer and designer located in Phoenix, AZ, currently seeking a career in Software Development, design, and cloud development. I 
+      currently am working towards a Bachelors in Computer Science in University of the People and a certification in System Design and Solutions at DeVry 
+      University. I currently hold a Bachelors of Art in Digital Design from Grand Canyon University. I am a technical and design-oriented person who enjoys 
+      creating and helping others achieve a common goal. I am a fast learner who is able to pick up on skills and pick up multiple tasks at once with ease.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
